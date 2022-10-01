@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/shared/Header";
 
 function App() {
   return (
     <div>
+      <Header />
       <h1>Hello world</h1>
     </div>
   );
